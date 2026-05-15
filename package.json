@@ -1,0 +1,22 @@
+{
+  "name": "typescript-challenges",
+  "version": "1.0.0",
+  "description": "My personal playground for mastering TypeScript through daily coding challenges and logic puzzles. Tracking progress from basics to advanced patterns.",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "tsc && node ./dist/ImageRepresentation.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IslamAlAbd/typescript-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IslamAlAbd/typescript-challenges/issues"
+  },
+  "homepage": "https://github.com/IslamAlAbd/typescript-challenges#readme"
+}
