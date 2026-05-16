@@ -1,5 +1,5 @@
 # typescript-challenges
-A collection of 7 Data Structures & Algorithms problems solved in TypeScript, covering key concepts like Dynamic Programming, Two Pointers, Stack-based approaches, and Graph Traversal.
+A collection of 7 Data Structures & Algorithms problems solved in TypeScript, covering key concepts like Dynamic Programming, Two Pointers, and Stack-based approaches
 
 ---
 
