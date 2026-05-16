@@ -34,3 +34,23 @@ const rodCutting = (n: number, price: number[]): number => {
 };
 //console.log(rodCutting(8, [0, 1, 5, 8, 9, 10, 17, 17, 20]));
 
+const trappingRainwater = (array: number[]): number => {
+  let left = 0;
+  let right = array.length - 1;
+  let maxLeft = 0,
+    maxRight = 0,
+    water = 0;
+  while (left <= right) {
+    if (maxLeft <= maxRight) {
+      maxLeft = Math.max(maxLeft, array[left]!);
+      water += maxLeft - array[left]!;
+      left++;
+    } else {
+      maxRight = Math.max(maxRight, array[right]!);
+      water += maxRight - array[right]!;
+      right--;
+    }
+  }
+  return water;
+};
+console.log(trappingRainwater([3, 0, 2, 0, 4]));
