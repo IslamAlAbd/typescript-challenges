@@ -4,7 +4,8 @@
   "description": "My personal playground for mastering TypeScript through daily coding challenges and logic puzzles. Tracking progress from basics to advanced patterns.",
   "main": "index.js",
   "scripts": {
-    "dev" : "tsc && node ./dist/ImageRepresentation.js",
+    "pixel" : "tsc && node ./dist/changePixelColor.js",
+    "probtwo" : "tsc && node ./dist/climbStairs.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
