@@ -6,6 +6,7 @@
   "scripts": {
     "pixel" : "tsc && node ./dist/changePixelColor.js",
     "probtwo" : "tsc && node ./dist/climbStairs.js",
+    "porbsix" : "tsc && node ./dist/largestRectangle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

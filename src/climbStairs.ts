@@ -53,4 +53,4 @@ const trappingRainwater = (array: number[]): number => {
   }
   return water;
 };
-console.log(trappingRainwater([3, 0, 2, 0, 4]));
+// console.log(trappingRainwater([3, 0, 2, 0, 4]));
