@@ -4,9 +4,9 @@
   "description": "My personal playground for mastering TypeScript through daily coding challenges and logic puzzles. Tracking progress from basics to advanced patterns.",
   "main": "index.js",
   "scripts": {
-    "pixel" : "tsc && node ./dist/changePixelColor.js",
-    "probtwo" : "tsc && node ./dist/climbStairs.js",
-    "porbsix" : "tsc && node ./dist/largestRectangle.js",
+    "pixel": "tsc && node ./dist/changePixelColor.js",
+    "probtwo": "tsc && node ./dist/climbStairs.js",
+    "porbsix": "tsc && node ./dist/largestRectangle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,9 +16,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/IslamAlAbd/typescript-challenges/issues"
   },
-  "homepage": "https://github.com/IslamAlAbd/typescript-challenges#readme"
+  "homepage": "https://github.com/IslamAlAbd/typescript-challenges#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
 }
